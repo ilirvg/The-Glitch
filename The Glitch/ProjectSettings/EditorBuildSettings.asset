@@ -10,4 +10,16 @@ EditorBuildSettings:
     guid: 04b22c2038a24ea4db92f4d6d01bbb33
   - enabled: 1
     path: Assets/_Scenes/01a Start.unity
+    guid: 1b470bbe306e239479fd5fcf82cc47d3
+  - enabled: 1
+    path: Assets/_Scenes/01b Options.unity
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/_Scenes/02 Level_01.unity
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/_Scenes/03aWin.unity
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/_Scenes/03b Lose.unity
     guid: 00000000000000000000000000000000

@@ -9,7 +9,12 @@ public class LevelManager : MonoBehaviour {
 
     private void Start()
     {
-        Invoke("LoadNextLevel", startMenuTime);
+        if (startMenuTime == 0) {
+            Debug.Log("level auto loaded disabeled");
+        }
+        else { 
+            Invoke("LoadNextLevel", startMenuTime);
+        }
     }
 
     public void LoadLevel(string name) {
@@ -20,7 +25,7 @@ public class LevelManager : MonoBehaviour {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); 
     }
 
-    public void QuickRequest() {
+    public void QuitRequest() {
         Debug.Log("Quit Request");
         Application.Quit();
     }

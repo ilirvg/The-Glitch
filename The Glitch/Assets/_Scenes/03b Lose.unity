@@ -394,7 +394,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.3
-  m_Text: kill those pisky animals
+  m_Text: These picky animals are stronger than you tought!
 --- !u!222 &735072433
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -413,7 +413,7 @@ GameObject:
   - component: {fileID: 1281853230}
   - component: {fileID: 1281853229}
   m_Layer: 5
-  m_Name: Start Button
+  m_Name: PlayAgain button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -476,7 +476,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 114067200137719764, guid: d250be95a9e598c4991b331444a1851b,
+          type: 2}
         m_MethodName: LoadLevel
         m_Mode: 5
         m_Arguments:
@@ -484,7 +485,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Level_01
+          m_StringArgument: 01a Start
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -521,7 +522,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Start
+  m_Text: Play Again
 --- !u!222 &1281853231
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -701,8 +702,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: QuickRequest
+      - m_Target: {fileID: 114067200137719764, guid: d250be95a9e598c4991b331444a1851b,
+          type: 2}
+        m_MethodName: QuitRequest
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
