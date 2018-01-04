@@ -9,7 +9,7 @@ public class LevelManager : MonoBehaviour {
 
     private void Start()
     {
-        if (startMenuTime == 0) {
+        if (startMenuTime <= 0) {
             Debug.Log("level auto loaded disabeled");
         }
         else { 
