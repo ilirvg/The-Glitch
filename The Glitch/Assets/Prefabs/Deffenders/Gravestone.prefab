@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 114867136338893440}
   m_Layer: 0
   m_Name: Gravestone
-  m_TagString: Untagged
+  m_TagString: destroyOnWin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97,7 +97,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.7, y: 1}
   m_EdgeRadius: 0
 --- !u!95 &95566881917770334
 Animator:
@@ -127,6 +127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dec730be9d4e46444bc3b3eb8034e739, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  starCost: 15
 --- !u!114 &114510443288311964
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -149,7 +150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff27223be33a3249a997be45efb95ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 400
 --- !u!212 &212436049060742126
 SpriteRenderer:
   m_ObjectHideFlags: 1

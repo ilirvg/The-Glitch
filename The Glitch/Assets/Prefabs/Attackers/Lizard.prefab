@@ -27,7 +27,7 @@ GameObject:
   - component: {fileID: 114152266215159256}
   m_Layer: 0
   m_Name: Lizard
-  m_TagString: Untagged
+  m_TagString: destroyOnWin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92,7 +92,7 @@ Rigidbody2D:
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 0
 --- !u!61 &61253182144490004
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff27223be33a3249a997be45efb95ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 80
 --- !u!114 &114612764534184200
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -171,6 +171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f486228d7be965a48a0518420649a6a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  seenEverySeconds: 15
 --- !u!212 &212371039570236984
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -202,7 +203,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300048, guid: ca4ae6c65424bd34fb8eff1dc4e22732, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
